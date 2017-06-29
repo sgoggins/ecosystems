@@ -1,0 +1,28 @@
+\documentclass[11pt]{book}
+\usepackage{lipsum}
+\usepackage{graphicx}
+
+\makeatletter
+\newcommand{\chapterauthor}[1]{%
+  {\parindent0pt\vspace*{-25pt}%
+  \linespread{1.1}\large\scshape#1%
+  \par\nobreak\vspace*{35pt}}
+  \@afterheading%
+}
+\makeatother
+
+\begin{document}
+
+\title{Empirical aspects of FLOSS ecosystems}
+
+\maketitle
+
+\input{datatypes}
+\input{provenance}
+\input{acquisition}
+\input{experimenting}
+\input{processing}
+\input{quality}
+\input{privacyethics}
+
+\end{document}
