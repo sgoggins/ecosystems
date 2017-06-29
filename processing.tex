@@ -1,2 +1,67 @@
 \chapter{Data Processing}
-\chapterauthor{Georgios}
+\chapterauthor{Georgios Gousios}
+
+Software engineering is an exceedingly data abundant activity. Nearly all
+artifacts of a software development project, both static, such as source code,
+software repositories and issues and dynamic, such as run-time logs and user
+activity streams, contain information valuable for understanding and optimising
+both the software products and the processes that created them. Unfortunately,
+modern organisations often do not utilise this
+wealth of information as a feedback and decision support instrument. Rather,
+teams adopt new software development practices and employ the latest and
+greatest technology, without questioning the results of their decisions.
+Consequently, this leads to decisions that are often unnecessarily suboptimal
+or downright wrong~\cite{Strigini:1996:IntuitionBasedDecisions}.
+
+\section{Streaming Analytics}
+
+Despite the existence of tools and methods for extracting data from software
+development processes, products and ecosystems, one key aspect is missing:
+real-time operation. To compensate for this deficiency, we need to come
+up with
+tools and methods to collect, query, aggregate, and summarise ecosystem data
+as streams, enabling software practitioners to use analytics as a
+core feedback loop. In the context of software engineering, we expect that
+streaming software analytics will enable software practitioners to move beyond
+information toward actionable insight, hence allowing them for an increase of
+software process and system technical quality. \vspace{0.5mm}
+
+\section{A research agenda}
+
+With the proposed research, we aim at utilising the wealth of information
+produced by distinct software development artifacts in order to enable software
+practitioners to use software analytics as a feedback and decision support
+instrument. Realising streaming software analytics, therefore requires an
+understanding of distinct stakeholder information needs, and decisions they
+influence. But more importantly, we strive to understand how those needs map to
+software analyses. We believe that community co-ordinated efforts can help
+realizing the streaming software analytics vision in at least the following
+ways:
+
+\begin{description}
+
+\item[Requirements for analytics] Researchers need to identify the
+  stackeholders' information needs by means of qualitative research. Early works
+  by Buse and Zimmerman~\cite{Buse:2012:INS:2337223.2337343} and Begel and
+  Zimmerman~\cite{Begel.Zimmerman_AnalyzeThis:2013} are on this direction, but
+  need to be revisited in the light of real-time analytics and instant feedback.
+
+\item[Infrastructure work] Developing analytics pipelines is a complex and error
+  prone task. It is however an area of intense competition (both academic and
+  industrial) and there is ample room for improvement. Software engineering
+  researchers should work together with researchers in other fields (e.g.
+  databases, programming languages) to tailor existing analytics systems to
+  software engineering requirements.
+
+\item[Feedback-driven ecosystem evolution] Software engineering development
+  methods (e.g. Scrum) are currently based on much folklore and little
+  evidence. As researchers, we should aim to enable feedback loops within the
+  software engineering practice. Developers should be able to easily execute
+  experiments (e.g. A/B tests), collect and correlate the results of applying
+  specific design and development decisions and their outcomes. This way, teams
+  and organizations can organically evolve their tooling and optimize their
+  processes based on data-driven decisions rather than black-box methodologies.
+
+% Dominic: any other ideas?
+
+\end{description}
